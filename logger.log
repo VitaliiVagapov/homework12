@@ -1,0 +1,203 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 14:59:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 14:59:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 14:59:29] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 14:59:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 15:38:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 15:38:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 15:38:43] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 15:38:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'loader_blueprint.create_post_by_user' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 15:39:09] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'loader_blueprint.create_post_by_user' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 15:39:09] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'loader_blueprint.create_post_by_user' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 15:39:09] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:43:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:43:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:43:14] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:43:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Данные не загружены, отсутствует часть данных
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:43:17] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:43:19] "GET /post HTTP/1.1" 200 -
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'loader_blueprint.create_post_by_user' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:43:24] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'loader_blueprint.create_post_by_user' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:53:30] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\homework12\loader\views.py", line 22, in create_post_by_user
+    picture.save(UPLOAD_FOLDER)
+  File "C:\Python\homework12\venv\lib\site-packages\werkzeug\datastructures.py", line 2999, in save
+    dst = open(dst, "wb")
+PermissionError: [Errno 13] Permission denied: 'uploads/images'
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:53:47] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:00:43] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:06:53] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:06:55] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:06:57] "GET /post HTTP/1.1" 200 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:06:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:06:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:07:05] "GET /search?s=вы HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:07:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:07:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:07:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:07:14] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:07:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:25] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:38] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:38] "GET /uploads/images/2020-05-23%20(1).png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:45] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:51] "GET /search?s=тачка HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:51] "[36mGET /uploads/images/2020-05-23%20(1).png HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:18:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:20:31] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:20:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:54:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:54:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:54:49] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:54:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Данные не загружены, отсутствует часть данных
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:55:02] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:55:05] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:55:32] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:55:34] "GET /post HTTP/1.1" 200 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:55:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 17:55:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 18:08:59] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 18:09:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 18:09:07] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "C:\Python\homework12\loader\views.py", line 28, in create_post_by_user
+    new_post = {"pic": save_picture(picture), "content": content}
+  File "C:\Python\homework12\loader\utils.py", line 11, in save_picture
+    raise WrongImgType(f"Неверный формат файла! Допустимы только: {', '.join(allowed_type)}!")
+exceptions.WrongImgType: Неверный формат файла! Допустимы только: jpg, png, gif, jpeg!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\homework12\loader\views.py", line 30, in create_post_by_user
+    abort(400)
+  File "C:\Python\homework12\venv\lib\site-packages\werkzeug\exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "C:\Python\homework12\venv\lib\site-packages\werkzeug\exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1384, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Python\homework12\venv\lib\site-packages\flask\app.py", line 1324, in handle_http_exception
+    return self.ensure_sync(handler)(e)
+  File "C:\Python\homework12\app.py", line 14, in bad_request_error
+    return render_template("error_400.html", error)
+TypeError: render_template() takes 1 positional argument but 2 were given
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 18:10:14] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 18:11:21] "POST /post HTTP/1.1" 200 -
